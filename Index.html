@@ -3,50 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scessor Game.</title>
   </head>
   <body>
     <!-- Initail Heading onthe page -->
     <h1 id="first">Rock Paper Scessor</h1>
     <!-- Choices PalyGround that save the options -->
-  <div class="choices">
-    <div class="choice">
-        <img src="./Images/rock (1).png" alt="Rock" srcset="">
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./Images/rock (1).png" alt="rock" srcset="" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./Images/paper (1).png" alt="paper" srcset="" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./Images/scissors (1).png" alt="scissors" srcset="" />
+      </div>
     </div>
-    <div class="choice">
-    <img src="./Images/paper (1).png" alt="Paper" srcset="">
-</div>
-<div class="choice">
-    <img src="./Images/scissors (1).png" alt="Scissors" srcset="">
-</div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
     <!-- ScoreBoard that dispaly the score of palyer & Robot -->
     <div class="scoreBoard">
-        <div class="score">
-            <p id="userScore">0</p>
-            <p>You</p>
-        </div>
-        <div class="score">
-            <p id="computerScore">0</p>
-            <p>Robot</p>
-        </div>
+      <div class="score">
+        <p id="userScore">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="computerScore">0</p>
+        <p>Robot</p>
+      </div>
     </div>
     <!-- This is Msg Container  -->
     <div class="msgContainer">
-        <p id="msg">Play Your Move</p>
+      <p id="msg">Play Your Move</p>
     </div>
   </body>
   <script src="Code.js"></script>
