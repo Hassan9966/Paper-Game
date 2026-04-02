@@ -1,0 +1,88 @@
+/*Universal Styling application*/
+*{
+    margin: 0px;
+    padding: 0%;
+    text-align: center;
+    
+    
+    
+}
+/* First Heading Styling */
+#first{
+    background-color:#bbbbbb ;
+    color:#d15c26 ;
+    line-height: 5rem;
+    height: 5.5rem;
+    text-shadow: 3px 2px rgba(78, 20, 20, 0.637);
+    /* display: flex; */
+}
+/* Choices the container which contains all the options */
+.choices{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+margin-top: 5rem;
+/* background-color: #5C9EAD; */
+
+}
+/* The container contain each option */
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Effect on choices after hover */
+.choice:hover{
+    box-shadow: 3px 3px rgba(255, 0, 0, 0.363),
+  -1em 0 0.4em rgba(128, 128, 0, 0.438);
+  cursor: pointer;
+  /* transform: scale(2,2); */
+}
+/* //Images Styling */
+img{
+    height: 160px;
+width: 160px;
+object-fit: cover;
+
+border-radius: 50%;
+}
+/* Effect on Images after hover */
+img:active{
+opacity: 1;
+transform: scale(1.2,1.2);
+}
+/* //ScoreBoard Styings */
+.scoreBoard{
+ display: flex;   
+ align-items: center;
+ justify-content: center;
+ font-size: 2rem;
+ margin-top: 3rem;
+ gap: 5rem;
+}
+/* UserScore & ComputerScore */
+#userScore,#computerScore{
+font-size: 5rem;
+color: rgb(112, 19, 19);
+}
+/* underScore the msgContainer which contain the message */
+.msgContainer{
+display: inline;
+border-radius: 10%;
+margin-top: 5rem;
+}
+/* Message which show the conditions */
+#msg{
+      background-color:#326273;
+  color:#EEEEEE ;
+  font-size: 3rem;
+  margin-top: 5rem;
+  display: inline;
+  border-radius: 10%;
+  font-style: oblique;
+  text-shadow: 5px 4px rgba(196, 15, 15, 0.637);
+}
